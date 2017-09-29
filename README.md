@@ -1,5 +1,5 @@
 # Ada's Carnival Recipes
-This repository holds all of the recipe scraps for the food Ada staff was going to prepare for the Georgetown Carnival. For more details on how to use this repository please check out the [activity instructions](https://github.com/AdaGold/standalone-exercises/blob/master/git-merge-conflict.md).
+This repository holds all of the recipe scraps for the food Ada staff was going to prepare for the Georgetown Carnival. For more details on how to use this repository please check out the [activity instructions](https://github.com/Ada-Developers-Academy/textbook-curriculum/blob/master/00-programming-fundamentals/exercises/merge-conflict.md).
 
 ## Recipe scraps for each group
 Below are links to the scrap files for each group. All of the files can be found in your local copy of the repository under the `scraps/` directory.
