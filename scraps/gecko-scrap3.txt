@@ -1,4 +1,4 @@
-Time: 1 hour
+gTime: 1 hour
 
 6 slices White Bread
 10 slices Thin/regular Bacon
