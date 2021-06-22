@@ -14,3 +14,7 @@ Below are links to the scrap files for each group. All of the files can be found
 | [Scrap 5](scraps/aardvark-scrap5.txt) | [Scrap 5](scraps/tarsier-scrap5.txt) | [Scrap 5](scraps/gecko-scrap5.txt) | [Scrap 5](scraps/sloth-scrap5.txt) | [Scrap 5](scraps/lionfish-scrap5.txt) | [Scrap 5](scraps/pangolin-scrap5.txt) | [Scrap 5](scraps/rhino-scrap5.txt) | [Scrap 5](scraps/curassow-scrap5.txt) |
 | [Scrap 6](scraps/aardvark-scrap6.txt) | [Scrap 6](scraps/tarsier-scrap6.txt) | [Scrap 6](scraps/gecko-scrap6.txt) | [Scrap 6](scraps/sloth-scrap6.txt) | [Scrap 6](scraps/lionfish-scrap6.txt) | [Scrap 6](scraps/pangolin-scrap6.txt) | [Scrap 6](scraps/rhino-scrap6.txt) | [Scrap 6](scraps/curassow-scrap6.txt) |
 | [Scrap 7](scraps/aardvark-scrap7.txt) | [Scrap 7](scraps/tarsier-scrap7.txt) | [Scrap 7](scraps/gecko-scrap7.txt) | [Scrap 7](scraps/sloth-scrap7.txt) |
+
+## Resources
+
+- [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
