@@ -50,7 +50,7 @@ Because each member of your group now has a different version of the recipe file
        - Pull the current state of master into **their feature branch** with `git pull origin master`
        - in VS code select **accept both changes**
        - Resolve the merge conflicts by rearranging the recipe and commit the result
-       - Push the result up to git hub with `git push origin BRANCH-NAME`
+       - Push the result up to github with `git push origin BRANCH-NAME`
        - Then attempt to merge their pull request.  If new changes have happened on master they may have to repeat step 1 above. 
 1. Merge changes simultaneously, kind of like the _ad-hoc_ strategy.
     - **Remember**: Whoever on your team is merging their changes into master must successfully finish that process (including fixing any merge conflicts!) before the next person can begin.  Help them with resolving the conflicts.
