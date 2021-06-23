@@ -28,7 +28,7 @@ Before we can start putting the recipe together we need to make sure that everyo
  
 1. **Fork the activity repo**: One person in your group should fork the [carnival-recipes](https://github.com/AdaGold/carnival-recipes) repo and then add everyone else as a collaborator.
 1. **Clone the forked repo**: Everyone in your group should clone the forked repository.
-1. **Find your recipe scrap**: Each group is assigned seven recipe scraps that should all be part of the same recipe. You can split these scraps up amongst your group however you wish. The scraps assigned to each group are listed in the carnival-recipes repo.
+1. **Find your recipe scrap**: Each group is assigned six(6) or seven(7) recipe scraps that should all be part of the same recipe. You can split these scraps up amongst your group however you wish. The scraps assigned to each group are listed in the carnival-recipes repo.
 1. **Add your recipe scrap**: Copy the contents of your recipe scrap into the recipe file and then add and commit your changes to the recipe file. After completing this step each person in your group should have **different** content within the recipe file in their local repository.
 
 **Do not** push your changes to GitHub yet! If you're finished early with this step help your groupmates.
@@ -41,7 +41,7 @@ Once everyone in your group has completed the baseline setup instructions above 
 
 There are a few things to look out for when working through this activity:
 
-- If you're still unsure about what a merge conflict is, or how to resolve one please review the [Merge Conflicts curriculum](./git-merge-conflicts.md).
+- You may want to review [Intro to Git](https://learn-2.galvanize.com/cohorts/2498/blocks/1032/content_files/intro-to-git/collaborating.md) and  [Branches in Git](https://learn-2.galvanize.com/cohorts/2498/blocks/1441/content_files/branches-in-git/branches.md).
 - You can review the [slides](https://docs.google.com/presentation/d/15OFyyoNJevzk7IpdZCP6VwMLju0MVS2pv0qeETLOa6Q/edit?usp=sharing)
 - The end result should be a real, usable recipe. The original recipe files were all complete works from various recipe websites online.
 - If you find that the result of one of your merges is missing critical ingredients or any numbered steps, you should go back and double check that you didn't lose any lines while resolving a merge conflict.
