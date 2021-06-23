@@ -1,5 +1,5 @@
 # Ada's Carnival Recipes
-This repository holds all of the recipe scraps for the food Ada staff was going to prepare for the Georgetown Carnival. For more details on how to use this repository please check out the [activity instructions](https://learn-2.galvanize.com/cohorts/2036/blocks/882/content_files/04-git/merge-conflict-remote.md).
+This repository holds all of the recipe scraps for the food Ada staff was going to prepare for the Georgetown Carnival. For more details on how to use this repository please check out the [activity instructions](./merge-conflict-remote.md).
 
 ## Recipe scraps for each group
 Below are links to the scrap files for each group. All of the files can be found in your local copy of the repository under the `scraps/` directory.
