@@ -65,13 +65,13 @@ Because each member of your group now has a different version of the recipe file
     - How could this process have been made easier?
     - Write up a set of steps to follow when dealing with merge conflicts.
 
-##### Activity Workflow
+### Activity Workflow
 
-![activity workflow](images/merge-carnival.png)
+![activity workflow](./merge-carnival.png)
 
 <!-- Original Image:  https://drive.google.com/file/d/11ZYH5JmApQZVstjjhCpd9H3hplPnKPAY/view?usp=sharing  -->
 
-#### General advice
+## General advice
 
 There are a few things to look out for when working through this activity:
 
@@ -81,7 +81,7 @@ There are a few things to look out for when working through this activity:
 - There's no "right" way to do this activity, all of the strategies listed below are valid ways to build the recipe file.
 - Have fun!
 
-#### Collaboration strategies
+## Collaboration strategies
 
 There are a number of ways that a group of developers can collaborate to handle merging their changes together into a final, correct result. Each strategy has pros and cons. For example if a particular strategy is good for minimizing the number of complex merge conflicts, it probably requires a slower development process in which developers are often waiting on their peers to merge in changes before they can start working.
 
