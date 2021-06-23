@@ -27,7 +27,10 @@ Before we can start putting the recipe together we need to make sure that everyo
    - Breakout Room 6, 12, 18: Pangolin
  
 1. **Fork the activity repo**: One person in your group should fork the [carnival-recipes](https://github.com/AdaGold/carnival-recipes) repo and then add everyone else as a collaborator.
+    - To add collaborators, go to **Settings** --> **Manage access** --> **Invite teams or people**
+    - Invite collaborators will need to accept the invitation. 
 1. **Clone the forked repo**: Everyone in your group should clone the forked repository.
+    - Check that you have the proper remote (and not the AdaGold remote) by typing `git remote -v` in the terminal.
 1. **Find your recipe scrap**: Each group is assigned six(6) or seven(7) recipe scraps that should all be part of the same recipe. You can split these scraps up amongst your group however you wish. The scraps assigned to each group are listed in the carnival-recipes repo.
 1. **Add your recipe scrap**: Copy the contents of your recipe scrap into the recipe file and then add and commit your changes to the recipe file. After completing this step each person in your group should have **different** content within the recipe file in their local repository.
 
@@ -37,28 +40,16 @@ Before we can start putting the recipe together we need to make sure that everyo
 
 Once everyone in your group has completed the baseline setup instructions above you're ready to start building the recipe together.
 
-#### General advice
-
-There are a few things to look out for when working through this activity:
-
-- You may want to review [Intro to Git](https://learn-2.galvanize.com/cohorts/2498/blocks/1032/content_files/intro-to-git/collaborating.md) and  [Branches in Git](https://learn-2.galvanize.com/cohorts/2498/blocks/1441/content_files/branches-in-git/branches.md).
-- You can review the [slides](https://docs.google.com/presentation/d/15OFyyoNJevzk7IpdZCP6VwMLju0MVS2pv0qeETLOa6Q/edit?usp=sharing)
-- The end result should be a real, usable recipe. The original recipe files were all complete works from various recipe websites online.
-- If you find that the result of one of your merges is missing critical ingredients or any numbered steps, you should go back and double check that you didn't lose any lines while resolving a merge conflict.
-- Your recipe scraps may have duplicate lines. We've added these in to more accurately portray the full range of potential merge conflicts. **Important**: you should get rid of any duplicate lines while merging.
-- There's no "right" way to do this activity, all of the strategies listed below are valid ways to build the recipe file.
-- Have fun!
-
-#### Recipe building process
-
 Because each member of your group now has a different version of the recipe file in their local repository, building the complete recipe by merging those versions together will result in merge conflicts. To handle those merge conflicts sensibly your group should use the following process to construct the final recipe file:
 
 1. Each person on a team will create a branch with `git checkout -b BRANCH-NAME`, selecting their own branch name based off the recipe scrap they have, and commit the changes they have made to the recipe.
 1. Each team member will push their changes up to github with `git push origin BRANCH-NAME`.
 1. Each team member will open a **pull request** trying to merge their branch on github into `master`.  **Be very careful to make the PR against your forked repository and NOT AdaGold.**
+    - To make the PR against your team members forked respository and not AdaGold, we will need to change the base repository
     - If there is a report of a merge conflict you will need to:
-       - Pull the current state of master into their branch with `git pull origin master`
-       - Resolve the merge conflicts and commit the result
+       - Pull the current state of master into **their feature branch** with `git pull origin master`
+       - in VS code select **accept both changes**
+       - Resolve the merge conflicts by rearranging the recipe and commit the result
        - Push the result up to git hub with `git push origin BRANCH-NAME`
        - Then attempt to merge their pull request.  If new changes have happened on master they may have to repeat step 1 above. 
 1. Merge changes simultaneously, kind of like the _ad-hoc_ strategy.
@@ -80,6 +71,16 @@ Because each member of your group now has a different version of the recipe file
 
 <!-- Original Image:  https://drive.google.com/file/d/11ZYH5JmApQZVstjjhCpd9H3hplPnKPAY/view?usp=sharing  -->
 
+#### General advice
+
+There are a few things to look out for when working through this activity:
+
+- The end result should be a real, usable recipe. The original recipe files were all complete works from various recipe websites online.
+- If you find that the result of one of your merges is missing critical ingredients or any numbered steps, you should go back and double check that you didn't lose any lines while resolving a merge conflict.
+- Your recipe scraps may have duplicate lines. We've added these in to more accurately portray the full range of potential merge conflicts. **Important**: you should get rid of any duplicate lines while merging.
+- There's no "right" way to do this activity, all of the strategies listed below are valid ways to build the recipe file.
+- Have fun!
+
 #### Collaboration strategies
 
 There are a number of ways that a group of developers can collaborate to handle merging their changes together into a final, correct result. Each strategy has pros and cons. For example if a particular strategy is good for minimizing the number of complex merge conflicts, it probably requires a slower development process in which developers are often waiting on their peers to merge in changes before they can start working.
@@ -99,3 +100,6 @@ There are several ways for teams to collaborate on a project and handle merging 
 # Resources
 
 - [Original Diagram Image](https://www.lucidchart.com/invitations/accept/c3fd712e-9be6-4fec-be51-9d433d7ed941)
+- [Intro to Git](https://learn-2.galvanize.com/cohorts/2498/blocks/1032/content_files/intro-to-git/collaborating.md) 
+- [Branches in Git](https://learn-2.galvanize.com/cohorts/2498/blocks/1441/content_files/branches-in-git/branches.md).
+- [Activity Instruction Slides (old)](https://docs.google.com/presentation/d/15OFyyoNJevzk7IpdZCP6VwMLju0MVS2pv0qeETLOa6Q/edit?usp=sharing)
