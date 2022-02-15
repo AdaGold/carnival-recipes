@@ -33,7 +33,7 @@ Before we can start putting the recipe together we need to make sure that everyo
     - Invite collaborators will need to accept the invitation. 
 1. **Clone the forked repo**: Everyone in your group should clone the forked repository.
     - Check that you have the proper remote (and not the AdaGold remote) by typing `git remote -v` in the terminal.
-1. **Find your recipe scrap**: Each group is assigned six(6) or seven(7) recipe scraps that should all be part of the same recipe. You can split these scraps up amongst your group however you wish. The scraps assigned to each group are listed in the carnival-recipes repo.
+1. **Find your recipe scrap**: Each group is assigned six(6) or seven(7) recipe scraps, located in the `/scraps` directory, that should all be part of the same recipe. You can split these scraps up amongst your group however you wish. The scraps assigned to each group are listed in the carnival-recipes repo.
 1. **Add your recipe scrap**: Copy the contents of your recipe scrap into the recipe file and then add and commit your changes to the recipe file. After completing this step each person in your group should have **different** content within the recipe file in their local repository.
 
 **Do not** push your changes to GitHub yet! If you're finished early with this step help your groupmates.
