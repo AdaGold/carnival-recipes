@@ -104,8 +104,4 @@ There are several ways for teams to collaborate on a project and handle merging 
 - [Original Diagram Image](https://www.lucidchart.com/invitations/accept/c3fd712e-9be6-4fec-be51-9d433d7ed941)
 - [Intro to Git](https://learn-2.galvanize.com/cohorts/2498/blocks/1032/content_files/intro-to-git/collaborating.md) 
 - [Branches in Git](https://learn-2.galvanize.com/cohorts/2498/blocks/1441/content_files/branches-in-git/branches.md).
-- [Activity Instruction Slides (old)](https://docs.google.com/presentation/d/15OFyyoNJevzk7IpdZCP6VwMLju0MVS2pv0qeETLOa6Q/edit?usp=sharing)
-
-## Resources
-
 - [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
