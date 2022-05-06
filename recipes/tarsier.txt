@@ -28,8 +28,6 @@ Salt and freshly ground black pepper
 1 cup grated mozzarella
 --------------------------
 
-<<<<<<< HEAD
-
 Directions:
 1. Preheat the oven to 450 degrees F.
 2. Bring a large pot of water to a boil and cook the rotini al dente.
@@ -48,4 +46,4 @@ Directions:
 15. Remove from the oven and set down. Spread the macaroni and cheese on the pizza, being careful to leave a 1-inch border.
 16. Sprinkle with the breadcrumb mixture on the macaroni and cheese and bake in the oven for 10 minutes.
 17. Remove from the oven and let stand for 10 minutes to set the macaroni and cheese.
->>>>>>> a0ec005392095b4a741d2ccdb8f3fa5f0577e1b8
+
