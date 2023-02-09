@@ -18,37 +18,33 @@ With this activity you will be able to encounter and resolve merge conflicts in 
 
 Before we can start putting the recipe together we need to make sure that everyone in your group is working from the same starting point and can effectively contribute to the recipe building effort.
 
-1. **Split into groups**: Follow your classroom instructors directions.
-   - Breakout Rooms 1,9: Aardvark
-   - Breakout Room 2,10: Curassow
-   - Breakout Room 3,11: Gecko
-   - Breakout Room 4,12: Sloth
-   - Breakout Room 5,13: Lionfish
-   - Breakout Room 6,14: Pangolin
-   - Breakout Room 7,15: Rhino
-   - Breakout Room 8,16: Tarsier
+1. **Split into groups**:
+   - Aardvark
+   - Curassow
+   - Gecko
+   - Sloth
+   - Lionfish
+   - Pangolin
+   - Rhino
+   - Tarsier
  
-1. **Fork the activity repo**: One person in your group should fork the [carnival-recipes](https://github.com/AdaGold/carnival-recipes) repo and then add everyone else as a collaborator.
+2. **Fork the activity repo**: One person in your group should fork the [carnival-recipes](https://github.com/AdaGold/carnival-recipes) repo and then add everyone else as a collaborator.
     - To add collaborators, go to **Settings** --> **Manage access** --> **Invite teams or people**
     - Invite collaborators will need to accept the invitation. 
-1. **Clone the forked repo**: Everyone in your group should clone the forked repository.
+3. **Clone the forked repo**: Everyone in your group should clone the forked repository.
     - Check that you have the proper remote (and not the AdaGold remote) by typing `git remote -v` in the terminal.
 
-2. **Find your recipe scrap**: Each group is assigned six(6) or seven(7) recipe scraps, located in the `/scraps` directory, that should all be part of the same recipe. You can split these scraps up amongst your group however you wish.
+4. **Find your recipe scrap**: Each group is assigned six(6) or seven(7) recipe scraps, located in the `/scraps` directory, that should all be part of the same recipe. You can split these scraps up amongst your group however you wish.
 
-3. **Add your recipe scrap**: Copy the contents of your recipe scrap into the recipe file and then add and commit your changes to the recipe file. After completing this step each person in your group should have **different** content within the recipe file in their local repository.
-
-**Do not** push your changes to GitHub yet! If you're finished early with this step help your groupmates.
 
 ### Building the recipe
 
-Once everyone in your group has completed the baseline setup instructions above you're ready to start building the recipe together.
+Once everyone in your group has completed the baseline setup instructions above you're ready to start building the recipe together. 
 
-Because each member of your group now has a different version of the recipe file in their local repository, building the complete recipe by merging those versions together will result in merge conflicts. To handle those merge conflicts sensibly your group should use the following process to construct the final recipe file:
-
-1. Each person on a team will create a branch with `git checkout -b BRANCH-NAME`, selecting their own branch name based off the recipe scrap they have, and commit the changes they have made to the recipe.
-1. Each team member will push their changes up to github with `git push origin BRANCH-NAME`.
-1. Each team member will open a **pull request** trying to merge their branch on github into `main`.  **Be very careful to make the PR against your forked repository and NOT AdaGold.**
+1. **Create your branch**: Each person on a team will create a branch for themselves. Use `git switch -c BRANCH-NAME` to create the branch. Replace `BRANCH-NAME` with a name based off the recipe scrap you have.
+2. **Add your recipe scrap**: Copy the contents of your recipe scrap into the recipe file and then add and commit your changes to the recipe file. After completing this step each person in your group should have **different** content within the recipe file in their local repository.
+3. Each team member will push their changes up to github with `git push origin BRANCH-NAME`.
+4. Each team member will open a **pull request** trying to merge their branch on github into `main`.  **Be very careful to make the PR against your forked repository and NOT AdaGold.**
     - To make the PR against your team members forked respository and not AdaGold, we will need to change the base repository
     - If there is a report of a merge conflict you will need to:
        - Pull the current state of main into **their feature branch** with `git pull origin main`
@@ -56,14 +52,14 @@ Because each member of your group now has a different version of the recipe file
        - Resolve the merge conflicts by rearranging the recipe and commit the result
        - Push the result up to github with `git push origin BRANCH-NAME`
        - Then attempt to merge their pull request.  If new changes have happened on main they may have to repeat step 1 above. 
-1. Merge changes simultaneously, kind of like the _ad-hoc_ strategy.
+5. Merge changes simultaneously, kind of like the _ad-hoc_ strategy.
     - **Remember**: Whoever on your team is merging their changes into main must successfully finish that process (including fixing any merge conflicts!) before the next person can begin.  Help them with resolving the conflicts.
     - Work with your fellow team members to resolve any merge conflicts.
-1. Once everyone's changes have been merged together, the group as a whole should review it for completeness.
+6. Once everyone's changes have been merged together, the group as a whole should review it for completeness.
     - Make sure that none of the lines from your individual scrap are missing from the final result.
     - If there are any fixes needed, pick one person in the group to make the necessary changes and commit them.
-1. When everyone agrees that the recipe looks correct _one_ person should submit a PR to the original carnival-recipes repo.
-1. Finally, debrief with your whole group about how things went.
+7. When everyone agrees that the recipe looks correct _one_ person should submit a PR to the original carnival-recipes repo.
+8. Finally, debrief with your whole group about how things went.
     - What went well? What didn't?
     - Were there any merge conflicts that were particularly tricky to figure out?
     - How could this process have been made easier?
