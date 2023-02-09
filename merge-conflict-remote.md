@@ -44,16 +44,16 @@ Because each member of your group now has a different version of the recipe file
 
 1. Each person on a team will create a branch with `git checkout -b BRANCH-NAME`, selecting their own branch name based off the recipe scrap they have, and commit the changes they have made to the recipe.
 1. Each team member will push their changes up to github with `git push origin BRANCH-NAME`.
-1. Each team member will open a **pull request** trying to merge their branch on github into `master`.  **Be very careful to make the PR against your forked repository and NOT AdaGold.**
+1. Each team member will open a **pull request** trying to merge their branch on github into `main`.  **Be very careful to make the PR against your forked repository and NOT AdaGold.**
     - To make the PR against your team members forked respository and not AdaGold, we will need to change the base repository
     - If there is a report of a merge conflict you will need to:
-       - Pull the current state of master into **their feature branch** with `git pull origin master`
+       - Pull the current state of main into **their feature branch** with `git pull origin main`
        - in VS code select **accept both changes**
        - Resolve the merge conflicts by rearranging the recipe and commit the result
        - Push the result up to github with `git push origin BRANCH-NAME`
-       - Then attempt to merge their pull request.  If new changes have happened on master they may have to repeat step 1 above. 
+       - Then attempt to merge their pull request.  If new changes have happened on main they may have to repeat step 1 above. 
 1. Merge changes simultaneously, kind of like the _ad-hoc_ strategy.
-    - **Remember**: Whoever on your team is merging their changes into master must successfully finish that process (including fixing any merge conflicts!) before the next person can begin.  Help them with resolving the conflicts.
+    - **Remember**: Whoever on your team is merging their changes into main must successfully finish that process (including fixing any merge conflicts!) before the next person can begin.  Help them with resolving the conflicts.
     - Work with your fellow team members to resolve any merge conflicts.
 1. Once everyone's changes have been merged together, the group as a whole should review it for completeness.
     - Make sure that none of the lines from your individual scrap are missing from the final result.
@@ -85,7 +85,7 @@ There are a few things to look out for when working through this activity:
 
 There are a number of ways that a group of developers can collaborate to handle merging their changes together into a final, correct result. Each strategy has pros and cons. For example if a particular strategy is good for minimizing the number of complex merge conflicts, it probably requires a slower development process in which developers are often waiting on their peers to merge in changes before they can start working.
 
-There are several ways for teams to collaborate on a project and handle merging changes into a single `master` branch on Github.
+There are several ways for teams to collaborate on a project and handle merging changes into a single `main` branch on Github.
 
 - **Round robin**: This strategy involves direct coordination between everyone in the group, resulting in a strictly ordered merge sequence.
   - One at a time each person pushes their changes and resolves any merge conflicts.
